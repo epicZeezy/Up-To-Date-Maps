@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html id = "background">
+    <head>
+        <title>UP-TODATE MAPS</title>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script> 
+        <link rel="stylesheet" href="style.css"/>
+        <script src="workingMap.js"></script>
+		
+		
+    </head>
+    
+    <body>
+		<div id="searchBar">
+        <nav>
+            <form action="#" onsubmit="changeBackground()">
+				Enter a color: <input id="message" type="text" />
+				<input type="button" value="Submit" onclick="changeBackground()"/>
+			</form>
+			
+        </nav>
+		</div>
+			<div id="topsection">
+				<div id="sitename">
+				
+				
+							Get
+				<span id="sitenamesub"> Fit </span>
+			
+			
+			</div>
+			
+			
+			
+			<div id="map">
+			<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN6GB89Jf5VJ8oRXpR_INVntertk0IZFA
+				&libraries=visualization&callback=initMap">
+			</script>
+			<!--<script src="map.js"> </script>
+        -->
+		</div>
+        
+        
+        
+		
+
+</body>
+		
+        
+   
+    
+</html>
+
+
+
+
+
+
+
+
+
+
